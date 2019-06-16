@@ -54,8 +54,8 @@
 			<version>4.2.2</version>
 		</dependency>
 	</dependencies>
-	<build>
 
+	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -73,6 +73,7 @@
 					<version>3.0.0-M3</version>
 					<configuration>
 						<suiteXmlFiles>
+							<suiteXmlFile>another.xml</suiteXmlFile>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
@@ -80,17 +81,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </project>
