@@ -15,7 +15,7 @@ public class LoginPage extends Annotations{
 		PageFactory.initElements(driver, this); 
 	}
 	@CacheLookup
-	@FindBy(how=How.ID, using="usernam	11e") 
+	@FindBy(how=How.ID, using="username") 
 	WebElement eleUserName;
 	@FindBy(how=How.ID, using="password") 
 	WebElement elePassWord;
