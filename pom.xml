@@ -73,7 +73,7 @@
 					<version>3.0.0-M3</version>
 					<configuration>
 						<suiteXmlFiles> 
-							<suiteXmlFile>testng.xml</suiteXmlFile>
+							<suiteXmlFile>testngCucumber.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
